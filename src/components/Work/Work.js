@@ -3,8 +3,10 @@ import React from "react";
 function Work() {
   return (
     <section className="myWork" id="work">
-      <h2 className="sectionTitle">My Work</h2>
-      <p className="sectionSubtitle"></p>
+      <h2 className="sectionTitle sectionTitleWork">My Work</h2>
+      <p className="sectionSubtitle sectionSubtitleWork">
+        My selection of work
+      </p>
 
       <div className="portfolio">
         <a href="#" className="portfolioItem">
