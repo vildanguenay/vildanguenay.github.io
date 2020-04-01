@@ -1,38 +1,45 @@
 import React from "react";
-// import classnames from "classnames";
 import Vildan from "D:/Portfolio/src/img/Vildan.jpg";
 
-import styles from "./Header.module.scss";
-
 function Header() {
+  const handleHamburger = () => {
+    console.log("whattttttttttttt");
+    document.body.classList.toggle("navOpen");
+  };
   return (
     <>
       <header>
-        <div class="logo">
-          <img src="" alt="" />
+        <div class="upperHeader">
+          <div class="logo">
+            <img src="" alt="" />
+          </div>
+          <button
+            class="navToggle"
+            aria-label="toggle navigation"
+            onClick={handleHamburger}
+          >
+            <span class="hamburger"></span>
+          </button>
         </div>
-        <button class="navToggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
-        </button>
         <nav class="nav">
           <ul class="navList">
             <li class="navItem">
-              <a href="#home" class="navLink">
+              <a href="#home" class="navLink" onClick={handleHamburger}>
                 Home
               </a>
             </li>
             <li class="navItem">
-              <a href="#services" class="navLink">
+              <a href="#services" class="navLink" onClick={handleHamburger}>
                 My Services
               </a>
             </li>
             <li class="navItem">
-              <a href="#work" class="navLink">
+              <a href="#about" class="navLink" onClick={handleHamburger}>
                 About me
               </a>
             </li>
             <li class="navItem">
-              <a href="#footer" class="navLink">
+              <a href="#work" class="navLink" onClick={handleHamburger}>
                 My Work
               </a>
             </li>
@@ -47,11 +54,7 @@ function Header() {
           Hi, I am <strong>Vildan Günay</strong>
         </h1>
         <p class="sectionSubtitle sectionSubtitleIntro">front-end dev</p>
-        <img
-          src="../img/Vildan.jpg"
-          alt="a picture of Vildan smiling"
-          class="introImage"
-        />
+        <img src={Vildan} alt="" class="introImg" />
       </section>
     </>
   );

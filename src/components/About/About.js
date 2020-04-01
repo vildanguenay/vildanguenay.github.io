@@ -1,4 +1,5 @@
 import React from "react";
+import Vildan from "D:/Portfolio/src/img/Vildan.jpg";
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
         <p></p>
       </div>
 
-      <img src="" class="aboutMeImg" alt="Vildan"></img>
+      <img src={Vildan} class="aboutMeImg" alt="Vildan"></img>
     </section>
   );
 }
