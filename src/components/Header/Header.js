@@ -1,9 +1,9 @@
 import React from "react";
 import Vildan from "D:/Portfolio/src/img/Vildan.jpg";
+// import pres from "D:/Portfolio/src/img/presenting.jpg";
 
 function Header() {
   const handleHamburger = () => {
-    console.log("whattttttttttttt");
     document.body.classList.toggle("navOpen");
   };
   return (
@@ -51,9 +51,11 @@ function Header() {
 
       <section class="intro" id="home">
         <h1 class="sectionTitle sectionTitleIntro">
-          Hi, I am <strong>Vildan Günay</strong>
+          <strong>Welcome!</strong>
         </h1>
-        <p class="sectionSubtitle sectionSubtitleIntro">front-end dev</p>
+        <p class="sectionSubtitle sectionSubtitleIntro">
+          Vildan, webdeveloper and more{" "}
+        </p>
         <img src={Vildan} alt="" class="introImg" />
       </section>
     </>
