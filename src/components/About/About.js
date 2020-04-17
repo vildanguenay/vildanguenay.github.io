@@ -5,11 +5,13 @@ function About() {
   return (
     <section className="aboutMe" id="about">
       <h2 className="sectionTitle sectionTitleAbout">Who I am</h2>
-      <p className="sectionSubtitle sectionSubtitleAbout"></p>
+      <p className="sectionSubtitle sectionSubtitleAbout">
+        dev based in Vienna
+      </p>
 
       <div className="aboutMeBody">
-        <p></p>
-        <p></p>
+        <p>bksbfuiebruiberuirbgvieurbu</p>
+        <p>earegrefgrefgergregrerreqeqrfqwe</p>
       </div>
 
       <img src={Vildan} class="aboutMeImg" alt="Vildan"></img>

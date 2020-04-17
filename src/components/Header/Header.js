@@ -51,11 +51,12 @@ function Header() {
 
       <section class="intro" id="home">
         <h1 class="sectionTitle sectionTitleIntro">
-          <strong>Welcome!</strong>
+          Welcome,
+          <div className="stronger">
+            I am <strong>Vildan</strong>!
+          </div>
         </h1>
-        <p class="sectionSubtitle sectionSubtitleIntro">
-          Vildan, webdeveloper and more{" "}
-        </p>
+        <p class="sectionSubtitle sectionSubtitleIntro">WEBDEVELOPER</p>
         <img src={Vildan} alt="" class="introImg" />
       </section>
     </>
