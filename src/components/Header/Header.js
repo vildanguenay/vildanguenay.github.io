@@ -1,5 +1,5 @@
 import React from "react";
-import Vildan from "D:/Portfolio/src/img/Vildan.jpg";
+import Vildan from "D:/Portfolio/src/img/fajka.jpg";
 // import pres from "D:/Portfolio/src/img/presenting.jpg";
 
 function Header() {
@@ -29,18 +29,18 @@ function Header() {
               </a>
             </li>
             <li class="navItem">
+              <a href="#work" class="navLink" onClick={handleHamburger}>
+                My Technologies
+              </a>
+            </li>
+            <li class="navItem">
               <a href="#services" class="navLink" onClick={handleHamburger}>
-                My Services
+                My Path
               </a>
             </li>
             <li class="navItem">
               <a href="#about" class="navLink" onClick={handleHamburger}>
                 About me
-              </a>
-            </li>
-            <li class="navItem">
-              <a href="#work" class="navLink" onClick={handleHamburger}>
-                My Work
               </a>
             </li>
           </ul>
