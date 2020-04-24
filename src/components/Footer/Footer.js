@@ -9,13 +9,14 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function Footer() {
   return (
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <a href="mailto:vildan-guenay@hotmail.com" className="footerLink">
         vildan-guenay@hotmail.com
       </a>
       <ul class="socialList">
         <li className="socialListItem">
           <a
+            target="_blank"
             href="https://www.linkedin.com/in/vildan-guenay"
             className="socialListLink"
           >
@@ -25,7 +26,11 @@ function Footer() {
           </a>
         </li>
         <li className="socialListItem">
-          <a href="https://github.com/vildanguenay" className="socialListLink">
+          <a
+            href="https://github.com/vildanguenay"
+            className="socialListLink"
+            target="_blank"
+          >
             <i>
               <FontAwesomeIcon icon={faGithub} />
             </i>
@@ -35,6 +40,7 @@ function Footer() {
           <a
             href="https://www.instagram.com/vildanguenay/"
             className="socialListLink"
+            target="_blank"
           >
             <i>
               <FontAwesomeIcon icon={faInstagram} />

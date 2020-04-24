@@ -9,11 +9,11 @@ function MyServices() {
       <div className="services">
         <div className="service">
           <h3 className="servicesHeading">STEP 1: Code Factory Vienna</h3>
-          <p>
+          <p className="servicesP">
             <strong>
               From back-end to front-end programming languages and frameworks I
-              gained first-hand experience of the most popular programs listed
-              above - you can view them by clicking the button below.
+              gained first-hand experience of the most popular programs - most
+              of them you can view by clicking the button below.
             </strong>
           </p>
         </div>

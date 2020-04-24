@@ -43,6 +43,11 @@ function Header() {
                 About me
               </a>
             </li>
+            <li class="navItem">
+              <a href="#footer" class="navLink" onClick={handleHamburger}>
+                Contact
+              </a>
+            </li>
           </ul>
         </nav>
       </header>

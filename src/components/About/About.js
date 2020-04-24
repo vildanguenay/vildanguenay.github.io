@@ -15,7 +15,7 @@ function About() {
           amazing technologies enable developers to retrieve data efficiently
           and controlled.
         </p>
-        <p>Feel free to contact me via the contact information below!</p>
+        <p>Feel free to reach out to me via the contact information below!</p>
       </div>
 
       <img src={Vildan} class="aboutMeImg" alt="Vildan"></img>

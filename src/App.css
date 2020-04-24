@@ -287,6 +287,12 @@ header {
   }
 
   .navOpen .nav {
+    transform: translateX(50%);
+  }
+}
+
+@media (min-width: 1000px) {
+  .navOpen .nav {
     transform: translateX(75%);
   }
 }
@@ -325,6 +331,10 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.servicesP {
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 800px) {
