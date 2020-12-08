@@ -1,10 +1,9 @@
-import React from "react";
-import Vildan from "D:/Portfolio/src/img/fajka.jpg";
-// import pres from "D:/Portfolio/src/img/presenting.jpg";
+import React from 'react';
+import Vildan from '../../img/fajka.jpg';
 
 function Header() {
   const handleHamburger = () => {
-    document.body.classList.toggle("navOpen");
+    document.body.classList.toggle('navOpen');
   };
   return (
     <>

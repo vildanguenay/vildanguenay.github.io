@@ -1,13 +1,12 @@
-import React from "react";
-import reactSymbol from "D:/Portfolio/src/img/react.svg";
-import js from "D:/Portfolio/src/img/js.svg";
-import node from "D:/Portfolio/src/img/node.svg";
-import bootstrap from "D:/Portfolio/src/img/bootstrap.svg";
-import sassSymbol from "D:/Portfolio/src/img/sass.svg";
-import scrum from "D:/Portfolio/src/img/scrum.svg";
-import php from "D:/Portfolio/src/img/php.svg";
-import graphql from "D:/Portfolio/src/img/graphql.svg";
-import apollo from "D:/Portfolio/src/img/apollo.svg";
+import React from 'react';
+import reactSymbol from '../../img/react.svg';
+import js from '../../img/js.svg';
+import node from '../../img/node.svg';
+import bootstrap from '../../img/bootstrap.svg';
+import sassSymbol from '../../img/sass.svg';
+import scrum from '../../img/scrum.svg';
+import graphql from '../../img/graphql.svg';
+import apollo from '../../img/apollo.svg';
 
 function Work() {
   return (
@@ -30,9 +29,6 @@ function Work() {
         </div>
         <div className="portfolioItem backgroundItem">
           <img src={apollo} alt="" className="portfolioImg"></img>
-        </div>
-        <div className="portfolioItem">
-          <img src={php} alt="" className="portfolioImg"></img>
         </div>
         <div className="portfolioItem">
           <img src={bootstrap} alt="" className="portfolioImg"></img>

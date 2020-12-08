@@ -1,5 +1,5 @@
-import React from "react";
-import Vildan from "D:/Portfolio/src/img/danube.jpg";
+import React from 'react';
+import Vildan from '../../img/danube.jpg';
 
 function About() {
   return (
