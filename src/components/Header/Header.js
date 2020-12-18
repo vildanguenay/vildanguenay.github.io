@@ -33,6 +33,11 @@ function Header() {
               </a>
             </li>
             <li class="navItem">
+              <a href="#projects" class="navLink" onClick={handleHamburger}>
+                My Projects
+              </a>
+            </li>
+            <li class="navItem">
               <a href="#services" class="navLink" onClick={handleHamburger}>
                 My Path
               </a>
@@ -60,7 +65,7 @@ function Header() {
             I am <strong>Vildan</strong>!
           </div>
         </h1>
-        <p class="sectionSubtitle sectionSubtitleIntro">WEBDEVELOPER</p>
+        <p class="sectionSubtitle sectionSubtitleIntro">FRONTEND DEVELOPER</p>
         <img src={Vildan} alt="" class="introImg" />
       </section>
     </>
