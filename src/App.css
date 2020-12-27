@@ -252,14 +252,16 @@ header {
   }
   .nav {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     transform: none;
     transition: none;
     right: unset;
     z-index: unset;
     bottom: unset;
-    color: #654e4e;
+    color: #646060;
     background: white;
+    font-weight: bold;
   }
   .nav .navList {
     width: 100%;
@@ -467,32 +469,137 @@ header {
   opacity: 0.5;
 }
 
-/* projects */
+/* myProjects */
 
-.projects {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-auto-rows: 300px;
+.myProjects {
+  background: #ead8d3;
+  /* ),
+    url(img/vie.jpg); */
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+  color: var(--clr-light);
+  text-align: center;
 }
 
-.projectItem {
-  background: var(--clr-light);
-  overflow: hidden;
-}
-
-.projectImg {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
-}
-
-.projectItem:focus {
+.sectionTitleProjects {
+  color: var(--clr-accent);
   position: relative;
-  z-index: 2;
 }
 
-.projectImg:hover,
-.projectItem:focus .projectImg {
-  transform: scale(1.2);
-  opacity: 0.5;
+.sectionSubtitleProjects {
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
+  color: #e9d9d9;
+}
+
+.cardGroup {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.cardText {
+  margin-top: 5px;
+  font-size: 10px;
+  color: white;
+  margin-bottom: 0;
+  user-select: none;
+  display: none;
+  line-height: normal;
+}
+
+.cardMeta {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: #0000008f;
+}
+
+.cardImage {
+  border: 0;
+  width: 100%;
+  max-width: 280px;
+  height: 100%;
+  max-height: 350px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0.3rem 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3.5rem 0 0 0;
+}
+
+.cardImage:hover {
+  transform: scale(1.01);
+  z-index: 99;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2;
+}
+
+@media (min-width: 1000px) {
+  .cardItem:hover {
+    display: block;
+    z-index: 100;
+  }
+}
+
+.cardFeature {
+  flex-direction: row;
+  background-size: contain;
+  position: relative;
+  max-height: 460px;
+  height: 100%;
+  width: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: #c7aea9;
+  padding: 3rem 0;
+}
+
+.cardSubtitle {
+  color: #646060;
+}
+
+.featureTitle {
+  margin-left: 0;
+}
+
+.featTitle {
+  color: var(--clr-accent);
+}
+
+.featureText {
+  text-align: left;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.secondHeader {
+  text-align: left;
+}
+
+.featureClose {
+  color: white;
+  position: absolute;
+  right: 7px;
+  top: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+.closeImg {
+  filter: brightness(0) invert(1);
+  width: 24px;
 }
 
 /* footer */
