@@ -287,6 +287,7 @@ header {
 
 .sectionSubtitleIntro {
   display: inline-block;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
@@ -557,12 +558,12 @@ header {
   }
   .content {
     margin-top: 0;
-   max-height: unset;
-   padding-bottom: 1rem;
+    max-height: unset;
+    padding-bottom: 1rem;
   }
   .featureText.featureText {
     padding: 1rem 0.5rem 1rem 1.5rem;
-    margin:unset;
+    margin: unset;
   }
   .projectHeader.projectHeader {
     padding: 0 0.5rem;
