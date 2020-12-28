@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  useState,
-  useEffect,
-  useRef,
-  useCallback,
-  createContext,
-  useContext,
-} from 'react';
+import { useState, useEffect, useRef, createContext } from 'react';
 
 import Close from '../../img/closeCard.png';
 import Netflix from '../../img/netflix.png';

@@ -5,7 +5,6 @@ import {
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 function Footer() {
   return (
