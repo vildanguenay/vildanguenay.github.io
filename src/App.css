@@ -420,7 +420,7 @@ header {
 /* My Work */
 
 .myWork {
-  background-color: hsl(0, 49%, 92%);
+  background-color: #d3bbb6;
   color: var(--clr-light);
   text-align: center;
   padding-bottom: 11rem;
@@ -473,7 +473,7 @@ header {
 /* myProjects */
 
 .myProjects {
-  background: #975962;
+  background: #79585d;
   /* ),
     url(img/vie.jpg); */
   background-size: cover;
@@ -490,7 +490,7 @@ header {
 .sectionSubtitleProjects {
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
-  color: #e9d9d9;
+  color: #e8e8e8;
 }
 
 .cardGroup {
