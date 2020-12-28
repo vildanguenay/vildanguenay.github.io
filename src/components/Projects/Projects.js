@@ -21,12 +21,8 @@ function Projects() {
   const [showFeature, setShowFeature] = useState(false);
   const [itemFeature, setItemFeature] = useState();
 
-  console.log(itemFeature);
-
   useEffect(() => {
     const handleClick = (click) => {
-      console.log(click.target);
-      console.log(node);
       if (node.current.contains(click.target)) {
         // inside click
         setShowFeature(true);
@@ -58,14 +54,14 @@ function Projects() {
           {/* <h3 className="featTitle">{itemFeature.title}</h3> */}
           <div className="content">
             <div>
-              <h3>{itemFeature.header}</h3>
+              <h3 className="projectHeader">{itemFeature.header}</h3>
               <ul
                 className="featureText"
                 dangerouslySetInnerHTML={{ __html: itemFeature.description }}
               />
             </div>
             <div>
-              <h3 className="secondHeader">applied technologies</h3>
+              <h3 className="projectHeader">applied technologies</h3>
               <ul
                 className="featureText"
                 dangerouslySetInnerHTML={{ __html: itemFeature.description2 }}

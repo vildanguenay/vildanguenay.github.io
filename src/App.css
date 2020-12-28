@@ -472,7 +472,7 @@ header {
 /* myProjects */
 
 .myProjects {
-  background: #ead8d3;
+  background: #975962;
   /* ),
     url(img/vie.jpg); */
   background-size: cover;
@@ -495,6 +495,7 @@ header {
 .cardGroup {
   display: inline-flex;
   justify-content: center;
+  position: relative;
 }
 
 .cardText {
@@ -518,12 +519,17 @@ header {
 .cardImage {
   border: 0;
   width: 100%;
-  max-width: 280px;
+  max-width: 580px;
   height: 100%;
   max-height: 350px;
   cursor: pointer;
   padding: 0;
   margin: 0.3rem 0;
+}
+
+.cardImage:hover {
+  transform: scale(1.01);
+  z-index: 99;
 }
 
 .content {
@@ -532,23 +538,40 @@ header {
   margin: 3.5rem 0 0 0;
 }
 
-.cardImage:hover {
-  transform: scale(1.01);
-  z-index: 99;
-}
-
 .cardItem {
   display: flex;
   flex-direction: column;
-  position: relative;
   cursor: pointer;
-  transition: transform 0.2;
 }
 
 @media (min-width: 1000px) {
   .cardItem:hover {
     display: block;
-    z-index: 100;
+  }
+}
+
+@media (max-width: 999px) {
+  .cardFeature.cardFeature {
+    max-height: unset;
+    padding-left: 0.1rem;
+  }
+  .content {
+    margin-top: 0;
+   max-height: unset;
+   padding-bottom: 1rem;
+  }
+  .featureText.featureText {
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    margin:unset;
+  }
+  .projectHeader.projectHeader {
+    padding: 0 0.5rem;
+    margin: unset;
+    min-height: 4rem;
+  }
+  .cardImage {
+    max-width: unset;
+    max-height: fit-content;
   }
 }
 
@@ -566,7 +589,7 @@ header {
 }
 
 .cardSubtitle {
-  color: #646060;
+  color: var(--clr-dark);
 }
 
 .featureTitle {
@@ -583,7 +606,7 @@ header {
   padding: 0;
 }
 
-.secondHeader {
+.projectHeader {
   text-align: left;
 }
 
