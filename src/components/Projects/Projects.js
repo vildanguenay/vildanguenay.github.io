@@ -3,8 +3,14 @@ import { useState, useEffect, useRef, createContext } from 'react';
 
 import Close from '../../img/closeCard.png';
 import Netflix from '../../img/netflix.png';
+import Webshop from '../../img/webshop.png';
 
 import data from '../../projectsDescriptions.json';
+
+const images = {
+  netflix: Netflix,
+  webshop: Webshop,
+};
 
 const FeatureContext = createContext();
 
@@ -65,10 +71,7 @@ function Projects() {
             </div>
           </div>
 
-          <a
-            className="btn"
-            href="https://vildanguenay.github.io/netflix-clone/"
-          >
+          <a className="btn" href={itemFeature.link}>
             open website
           </a>
           <div>
@@ -105,7 +108,12 @@ function Projects() {
             >
               <h3 className="cardSubtitle">{item.title}</h3>
               <div className="cardImage">
-                <img src={Netflix} id={item.id} alt="" className="projectImg" />
+                <img
+                  src={images[item.image]}
+                  id={item.id}
+                  alt=""
+                  className="projectImg"
+                />
               </div>
             </div>
           ))}
