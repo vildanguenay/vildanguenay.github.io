@@ -76,7 +76,7 @@ strong {
   display: inline-block;
   padding: 0.5em 2.5em;
   background: var(--clr-accent);
-  color: var(--clr-dark);
+  color: #634444;
   text-decoration: none;
   cursor: pointer;
   font-size: 0.8rem;
@@ -485,7 +485,7 @@ header {
 
 .sectionSubtitleProjects {
   font-weight: var(--fw-bold);
-  margin-bottom: 2em;
+  margin-bottom: 0.8em;
   color: #e8e8e8;
 }
 
@@ -494,6 +494,10 @@ header {
   flex-direction: column;
   justify-content: center;
   position: relative;
+}
+
+.cardItem {
+  margin-top: 1rem;
 }
 
 .cardText {
@@ -522,7 +526,7 @@ header {
   max-height: 350px;
   cursor: pointer;
   padding: 0;
-  margin: 0.3rem 0;
+  margin: 0.3rem 0 0 0;
 }
 
 .projectImg {
@@ -543,6 +547,8 @@ header {
 
 @media (min-width: 1000px) {
   .cardItem {
+    max-width: 36rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -568,9 +574,10 @@ header {
     padding-bottom: 1rem;
   }
   .featureText.featureText {
-    padding: 1rem 0.5rem 1rem 1.5rem;
+    padding: 1rem 0.3rem 1rem 0;
     margin: unset;
   }
+
   .projectHeader.projectHeader {
     padding: 0 0.5rem;
     margin: unset;
@@ -591,7 +598,7 @@ header {
   width: 100%;
   background-position-x: right;
   background-repeat: no-repeat;
-  background-color: #c7aea9;
+  /* background-color: #c7aea9; */
   padding: 3rem 0;
 }
 
@@ -608,9 +615,14 @@ header {
 }
 
 .featureText {
-  text-align: left;
+  /* text-align: center; */
   margin: 2rem 0;
   padding: 0;
+  list-style-position: inside;
+}
+
+.featureText li {
+  text-align: left;
 }
 
 .projectHeader {

@@ -18,7 +18,9 @@ function Projects() {
   const node = useRef();
 
   const [showFeature, setShowFeature] = useState(false);
-  const [itemFeature, setItemFeature] = useState();
+  const [itemFeature, setItemFeature] = useState([]);
+
+  console.log(itemFeature)
 
   useEffect(() => {
     const handleClick = (click) => {
@@ -99,6 +101,7 @@ function Projects() {
 
         <div className="cardGroup" ref={node}>
           {data.map((item, index) => (
+            <>
             <div
               className="cardItem"
               onClick={() => {
@@ -115,11 +118,11 @@ function Projects() {
                   className="projectImg"
                 />
               </div>
+              {item.id === itemFeature.id ? ShowFeatureOnClick() : null}
             </div>
+           </>
           ))}
         </div>
-
-        {ShowFeatureOnClick()}
       </section>
     </FeatureContext.Provider>
   );
