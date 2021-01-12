@@ -547,17 +547,12 @@ header {
   .cardItem {
     max-width: 36rem;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     cursor: pointer;
     margin-right: 2rem;
   }
   .cardGroup {
     display: inline-flex;
     flex-direction: row;
-  }
-  .cardItem:hover {
-    display: block;
   }
   .description {
     width: fill-available;
