@@ -540,8 +540,6 @@ header {
 }
 
 .content {
-  display: flex;
-  justify-content: space-evenly;
   margin: 3.5rem 0 0 0;
 }
 
@@ -561,12 +559,16 @@ header {
   .cardItem:hover {
     display: block;
   }
+  .description {
+    width: fill-available;
+  }
 }
 
 @media (max-width: 999px) {
   .cardFeature.cardFeature {
     max-height: unset;
     padding-left: 0.1rem;
+    padding-bottom: 0;
   }
   .content {
     margin-top: 0;
@@ -581,29 +583,30 @@ header {
   .projectHeader.projectHeader {
     padding: 0 0.5rem;
     margin: unset;
-    min-height: 4rem;
   }
   .cardImage {
     max-width: unset;
     max-height: fit-content;
   }
+  .cardItem {
+    margin-top: 0;
+  }
 }
 
 .cardFeature {
-  flex-direction: row;
-  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
-  max-height: 460px;
+  max-height: max-content;
   height: 100%;
   width: 100%;
-  background-position-x: right;
-  background-repeat: no-repeat;
-  /* background-color: #c7aea9; */
   padding: 3rem 0;
 }
 
 .cardSubtitle {
   color: var(--clr-dark);
+  margin-top: 2rem;
 }
 
 .featureTitle {

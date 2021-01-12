@@ -54,15 +54,15 @@ function Projects() {
         <div className="cardFeature">
           {/* <h3 className="featTitle">{itemFeature.title}</h3> */}
           <div className="content">
-            <div>
+            <div className="description">
               <h3 className="projectHeader">{itemFeature.header}</h3>
               <ul
                 className="featureText"
                 dangerouslySetInnerHTML={{ __html: itemFeature.description }}
               />
             </div>
-            <div>
-              <h3 className="projectHeader">applied technologies</h3>
+            <div className="description">
+              <h3 className="projectHeader">{itemFeature.header2}</h3>
               <ul
                 className="featureText"
                 dangerouslySetInnerHTML={{ __html: itemFeature.description2 }}
@@ -76,9 +76,6 @@ function Projects() {
           <a className="btn" href={itemFeature.link}>
             open website
           </a>
-          <div>
-            <div className="playerLink"></div>
-          </div>
         </div>
       </>
     ) : null;
