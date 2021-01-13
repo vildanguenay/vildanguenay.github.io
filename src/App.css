@@ -591,6 +591,10 @@ header {
   .cardItem {
     margin-top: 0;
   }
+
+  .projectImg {
+    height: 200px;
+  }
 }
 
 .cardFeature {

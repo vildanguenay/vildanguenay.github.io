@@ -20,8 +20,6 @@ function Projects() {
   const [showFeature, setShowFeature] = useState(false);
   const [itemFeature, setItemFeature] = useState([]);
 
-  console.log(itemFeature)
-
   useEffect(() => {
     const handleClick = (click) => {
       if (node.current.contains(click.target)) {
