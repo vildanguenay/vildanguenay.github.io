@@ -109,6 +109,10 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+.welcomeText {
+  align-self: center;
+}
+
 .sectionTitle {
   margin-top: 0.25em;
 }
@@ -315,7 +319,7 @@ header {
     text-align: right;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 1.5em);
+    width: calc(100% + 4.7em);
   }
 }
 
@@ -419,7 +423,7 @@ header {
 /* My Work */
 
 .myWork {
-  background-color: #d3bbb6;
+  background-color: #79585d;
   color: var(--clr-light);
   text-align: center;
   padding-bottom: 11rem;
@@ -472,7 +476,7 @@ header {
 /* myProjects */
 
 .myProjects {
-  background: #79585d;
+  background: #d3bbb6;
   background-size: cover;
   color: var(--clr-light);
   text-align: center;
@@ -486,7 +490,7 @@ header {
 .sectionSubtitleProjects {
   font-weight: var(--fw-bold);
   margin-bottom: 0.8em;
-  color: #e8e8e8;
+  color: #fff;
 }
 
 .cardGroup {
