@@ -59,11 +59,13 @@ function Header() {
       {/* INTRO */}
 
       <section class="intro" id="home">
-        <h1 class="sectionTitle welcomeText">
-          <div className="stronger">Welcome!</div>
+        <h1 class="sectionTitle sectionTitleIntro">
+          <strong>Welcome </strong>to
+          <br />
+          my personal website!
         </h1>
         <p class="sectionSubtitle sectionSubtitleIntro">
-          I AM A FRONTEND DEVELOPER
+          JavaScript | React | GraphQL
         </p>
         <img src={Vildan} alt="" class="introImg" />
       </section>
