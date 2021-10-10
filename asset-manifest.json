@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2035cb36.chunk.css",
+    "main.js": "/static/js/main.dd487580.chunk.js",
+    "main.js.map": "/static/js/main.dd487580.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/js/2.19f5339f.chunk.js": "/static/js/2.19f5339f.chunk.js",
+    "static/js/2.19f5339f.chunk.js.map": "/static/js/2.19f5339f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2035cb36.chunk.css.map": "/static/css/main.2035cb36.chunk.css.map",
+    "static/js/2.19f5339f.chunk.js.LICENSE.txt": "/static/js/2.19f5339f.chunk.js.LICENSE.txt",
+    "static/media/apollo.04405aae.svg": "/static/media/apollo.04405aae.svg",
+    "static/media/bootstrap.f4c8ee0e.svg": "/static/media/bootstrap.f4c8ee0e.svg",
+    "static/media/danube.b8192a13.jpg": "/static/media/danube.b8192a13.jpg",
+    "static/media/fajka.9782752c.jpg": "/static/media/fajka.9782752c.jpg",
+    "static/media/graphql.d93b5155.svg": "/static/media/graphql.d93b5155.svg",
+    "static/media/js.e608bacf.svg": "/static/media/js.e608bacf.svg",
+    "static/media/netflix.0d0bcbde.png": "/static/media/netflix.0d0bcbde.png",
+    "static/media/node.10850a81.svg": "/static/media/node.10850a81.svg",
+    "static/media/react.2dd4991b.svg": "/static/media/react.2dd4991b.svg",
+    "static/media/sass.f076ba59.svg": "/static/media/sass.f076ba59.svg",
+    "static/media/scrum.c3d76b82.svg": "/static/media/scrum.c3d76b82.svg",
+    "static/media/App.css": "/static/media/vie.e0dfce97.jpg",
+    "static/media/webshop.2ed3a130.png": "/static/media/webshop.2ed3a130.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/js/2.19f5339f.chunk.js",
+    "static/css/main.2035cb36.chunk.css",
+    "static/js/main.dd487580.chunk.js"
+  ]
+}
